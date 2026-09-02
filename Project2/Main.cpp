@@ -15,11 +15,11 @@ int main()
 {
 	SongList list;
 
-	list.viewPlaylist();
 
-	//list.queSong("Novacane", "Frank Ocean");
-	//list.queSong("Godspeed", "Frank Ocean");
-	//list.queSong("Nike", "Frank Ocean");
+	list.queSong("Novacane", "Frank Ocean");
+	list.queSong("Godspeed", "Frank Ocean");
+	list.queSong("Nike", "Frank Ocean");
+	list.viewPlaylist();
 
 	cout << endl; 
 	system("Pause");
