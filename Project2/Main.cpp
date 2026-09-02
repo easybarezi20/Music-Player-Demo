@@ -7,12 +7,19 @@
 */
 
 #include <iostream>
+#include "songList.h"
 
 using namespace std;
 
 int main()
 {
-	cout << "Hello World!" << endl;
+	SongList list;
+
+	list.viewPlaylist();
+
+	//list.queSong("Novacane", "Frank Ocean");
+	//list.queSong("Godspeed", "Frank Ocean");
+	//list.queSong("Nike", "Frank Ocean");
 
 	cout << endl; 
 	system("Pause");
